@@ -35,9 +35,9 @@ This project is a Telegram Bot-based e-commerce platform developed using PHP. Th
 
 2. **Install dependencies:**
    Run the following command to install the required PHP libraries:
-   ```bash
-   composer install
-   ```
+  composer require guzzlehttp/guzzle
+  composer require vlucas/phpdotenv
+
 
 3. **Configure the database:**
    - Create a new MySQL database.
