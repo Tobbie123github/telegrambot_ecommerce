@@ -27,11 +27,7 @@ This project is a Telegram Bot-based e-commerce platform developed using PHP. Th
 
 ### Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/telegram-bot-ecommerce.git
-   cd telegram-bot-ecommerce
-   ```
+1. **Clone the repository:*
 
 2. **Install dependencies:**
    Run the following command to install the required PHP libraries:
@@ -42,11 +38,11 @@ This project is a Telegram Bot-based e-commerce platform developed using PHP. Th
 3. **Configure the database:**
    - Create a new MySQL database.
    - Import the provided SQL file (`database.sql`) to set up the necessary tables.
-   - Update the `config.php` file with your database credentials.
+  
 
 4. **Set up Telegram Bot:**
    - Obtain your bot token from [BotFather](https://core.telegram.org/bots#botfather).
-   - Update the bot token in the `config.php` file.
+   - Update the bot token in the `.env` file.
 
 5. **Deploy the Bot:**
    - Set up a webhook for the bot using the following command (replace `<your-webhook-url>` with your actual webhook URL):
@@ -57,8 +53,7 @@ This project is a Telegram Bot-based e-commerce platform developed using PHP. Th
 
 6. **Configure the Admin Group:**
    - Add the bot to your desired Telegram group.
-   - Designate admins who can manage products and orders.
-
+  
 
 ## Contributing
 
@@ -66,7 +61,7 @@ Feel free to fork this project and contribute by submitting pull requests. For m
 
 ## Contact
 
-For any inquiries or support, please contact [tobbie2611@domain.com](mailto:tobbie2611@domain.com).
+For any inquiries or support, please contact [tobbie2611@gmail.com](mailto:tobbie2611@gmail.com).
 
 ---
 
